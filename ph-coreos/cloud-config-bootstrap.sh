@@ -1,0 +1,14 @@
+#!/bin/bash
+cat > "cloud-config.yaml" <<EOF
+#cloud-config
+
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDE6gckYFcqnGORlzqDYH9rEiiescqQ29G9X45eWivXGF5+YeVmEjWssalWyeDN4UsKGsbthbVfpetXdrTjDEh2v6Yx+ZLV6IK2AzsCmhKkzHI1oNH76C4qfpCnRmy/HF9dv1FasuN2SBZvcUzn9ufu9tgaWJYMD2JHDcI+vH1qDHrxmTaktw7x1lTbLuk3q655x8SKZmw4rbW0MZ8SWsbmTCzqClBte5TEL3eEZC9GtscpxzbTOdUF/bwr/+dobCQuC7+Ipg1mSb07NYjOOeZIlZdcvZCVkvnVuR5F4AkQ/GzqjqAR+bh4S7BzDfcCEY10ezaVLRu1U1qk/X40vLO9 belthesar@Gaspar.local
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB95nriwWK+ic/xZT4k1Kf+5zh8/kIy2ccx0UIKcNOnf joshua@nonagon.games
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArFbQZQdFG60fJvvv6MaU1scCQVuo0bCbrIQBcgVsymUebHVjAOgIvFI6v6WraDs0Tx6/ihxHmxo49TWLR42M0AyqpjHYaZWypSxwyfqcmh9TefcMDGvAE3x1X6onE7yfEpYCMJxbni+ZLBqygdaSeFcsyHYGnkMucd+h8nL3jU7hLkRTamA6zEqLfNL8vyoaIoANZgRBMnu0q7Rl7U6WbgzUzu/X4AoIIqNw52hyl3nk7G39vqLpt5X9I0TBnGDtVdFpKKL6MMvyRxZvkM3yQrsnKgmrfrRcOYhgoMSZ3yQEVH9oiQjNN0zThqsGPye1mn3u81o3gCSw106lCNgINQ== rsa-key-20180530
+
+hostname: "host01.beta.blade-symphony.com"
+EOF
+
+sudo coreos-install -d /dev/vda -c cloud-config.yaml
+sudo reboot
