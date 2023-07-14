@@ -26,7 +26,7 @@ You should now see the server in your favorites list.
 
 ## Joining the server
 
-While this screen would lead you to believe that you can click Connect to join the server, it appears it doesn't quite work this way. The first, and every other time that you join the server, you'll need to connect with the following steps:
+While this screen would lead you to believe that you can click Connect to join the server, it appears it doesn't quite work this way. Instead, you will need to follow these steps in order to connect to the server:
 
 1. Open The Forest.
 2. Once the game has launched, and you're at the main menu, alt-tab out of the game.
