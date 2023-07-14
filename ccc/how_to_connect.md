@@ -32,11 +32,8 @@ While this screen would lead you to believe that you can click Connect to join t
 2. Once the game has launched, and you're at the main menu, alt-tab out of the game.
 3. In Steam, go to View -> Game Servers. This will open up the server browser.
 4. Click on the Favorites tab. You should see the server you added earlier.
-5. Right click on the server, and select "View Server Info"
-![Steam - Game Server Info for Chateau Chaos Crew](/ccc/img/steam-game-server-info.png)
-> Note: The IP address in the screen shot will be different than what you see above. This is normal.
-6. In the "Server Info" dialog, click "Join Game"
-7. Go back to The Forest. In a few moments, you should see a request to join the game lobby. Click that, and you'll be in the game!
+5. Ensure that Chatueau Chainsaw Crew is selected in the list, and then click Connect.
+6. Go back to The Forest. In a few moments, you should see a request to join the game lobby. Click that, and you'll be in the game!
 
 ## Notes
 If you're joining for the first time, please consider migrating your save files from the Peer to Peer server to the Dedicated server. Instructions on how to do this can be found [here](/ccc/migrating_save_files).
