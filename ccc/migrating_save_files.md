@@ -12,7 +12,8 @@ This does take a little bit of work to make this happen, but I promise we'll get
 1. We need to get to where save games for The Forest are stored on your computer. This is usually in the following location: `C:\Users\<your username>\AppData\LocalLow\SKS\TheForest\<your Steam ID>\`. Here's a quick and easy way to get to that location:
     1. Open up a File Explorer window. (This may be a Folder icon on your Taskbar, or you can hit the Windows key + E)
     2. In the address bar, type `%appdata%` and hit enter.
-    3. In the File Explorer window that opens, navigate to `LocalLow\SKS\TheForest\<your Steam ID>\Multiplayer\cs`. (this will be a bunch of numbers, and likely the only folder like it in the `TheForest` folder)
+    3. Navigate one folder up to the AppData folder. You can do this by clicking on the `AppData` folder in the address bar.
+    4. In the File Explorer window that opens, navigate to `LocalLow\SKS\TheForest\<your Steam ID>\Multiplayer\cs`. (this will be a bunch of numbers, and likely the only folder like it in the `TheForest` folder)
     ![The Forest Saves Folder - Source](/ccc/img/theforest-saves-folder-source.png)
 2. There may be one or more files in this folder, depending on if you've played The Forest with other people. The file we're interested in should have the name `445cb663-d8e1-4d4f-8210-a17cc518dba9`. Right click and Copy this file. 
 3. From here, we need to go up three levels to the `TheForest` folder. You should be able to do this by clicking on the `TheForest` folder in the address bar.
