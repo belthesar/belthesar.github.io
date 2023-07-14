@@ -25,4 +25,4 @@ This does take a little bit of work to make this happen, but I promise we'll get
 9. Now, in order to make the save work on the Dedicated Server, we need to rename the file. Right Click on the file, and select Rename. Change the name to `5e824930-c76a-481b-841d-c7594818e7ba` and hit enter. Once done, it should look something like this:
 ![The Forest Saves Folder - Destination](/ccc/img/theforest-saves-folder-destination.png)
 
-If you've done everything correctly, you should be able to follow the directions in [How to Connect](/ccc/how_to_connect.md) to connect to the Dedicated Server, and when you join the server, you should pick up right back where you left off on the Peer to Peer server.
+If you've done everything correctly, you should be able to follow the directions in [How to Connect](/ccc/how_to_connect) to connect to the Dedicated Server, and when you join the server, you should pick up right back where you left off on the Peer to Peer server.

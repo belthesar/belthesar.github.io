@@ -39,4 +39,4 @@ While this screen would lead you to believe that you can click Connect to join t
 7. Go back to The Forest. In a few moments, you should see a request to join the game lobby. Click that, and you'll be in the game!
 
 ## Notes
-If you're joining for the first time, please consider migrating your save files from the Peer to Peer server to the Dedicated server. Instructions on how to do this can be found [here](/ccc/migrating_save_files.md).
+If you're joining for the first time, please consider migrating your save files from the Peer to Peer server to the Dedicated server. Instructions on how to do this can be found [here](/ccc/migrating_save_files).
