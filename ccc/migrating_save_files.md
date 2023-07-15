@@ -22,7 +22,6 @@ This does take a little bit of work to make this happen, but I promise we'll get
 5. Open up the `ds` folder. If you've played on a Dedicated Server before, there may be a folder named `Multiplayer` in here. If not, use the same steps above to create it. Once you've verified there is a folder named `Multiplayer` in the `ds` folder, open it up.
 6. In the `Multiplayer` folder, there should be a folder named `cs`. If there is not, create it using the same steps above. Once you've verified there is a folder named `cs` in the `Multiplayer` folder, open it up.
 7. Once we're in the `cs` folder, we need to paste the file we copied earlier. You can do this by Right Clicking in the folder, and selecting Paste.
-8. You should now see the file `5e824930-c76a-481b-841d-c7594818e7ba` in the `cs` folder. Once done, it should look something like this:
-![The Forest Saves Folder - Destination](/ccc/img/theforest-saves-folder-destination.png)
+8. You should now see the file `5e824930-c76a-481b-841d-c7594818e7ba` in the `cs` folder. 
 
 If you've done everything correctly, you should be able to follow the directions in [How to Connect](/ccc/how_to_connect) to connect to the Dedicated Server, and when you join the server, you should pick up right back where you left off on the Peer to Peer server.
