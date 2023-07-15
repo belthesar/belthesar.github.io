@@ -12,7 +12,8 @@ This does take a little bit of work to make this happen, but I promise we'll get
 1. We need to get to where save games for The Forest are stored on your computer. This is usually in the following location: `C:\Users\<your username>\AppData\LocalLow\SKS\TheForest\<your Steam ID>\`. Here's a quick and easy way to get to that location:
     1. Open up a File Explorer window. (This may be a Folder icon on your Taskbar, or you can hit the Windows key + E)
     2. In the address bar, type `%appdata%\..\LocalLow\SKS\TheForest` and hit enter.
-    3. In this folder, there should be at least one, potentially more folders. These folders are named after your Steam ID. If there are more than one folder with numbers as the name, you may 
+    3. In this folder, there should be at least one, potentially more folders. If you're the only person that has played The Forest on your computer, there should be one folder that is a long string of numbers. Enter this folder. 
+    > If you are not the only person that has played The Forest on this computer, there may be more folders in this directory made up of a long string of numbers. These numbers translate to your Stream ID. You can use the [https://steamidfinder.com/](https://steamidfinder.com/) to look up your Steam ID. Follow the instructions on this site to pull your Steam ID. The folder name that is yours will match up with the number next to `steamID64 (Dec)`. 
     4. In the File Explorer window that opens, navigate to `LocalLow\SKS\TheForest\<your Steam ID>\Multiplayer\cs`. (this will be a bunch of numbers, and likely the only folder like it in the `TheForest` folder)
     ![The Forest Saves Folder - Source](/ccc/img/theforest-saves-folder-source.png)
 2. There may be one or more files in this folder, depending on if you've played The Forest with other people. The file we're interested in should have the name `5e824930-c76a-481b-841d-c7594818e7ba`. Right click and Copy this file. 
